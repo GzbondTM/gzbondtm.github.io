@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  font-family: 'Poppins';
+}
+
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #ffbd96;
+}
+
+#projek {
+  background-color: #ffbd96;
+
+}
+
+#projek h2 {
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+  #projek .container {
+    display: block;
+  }
+}
